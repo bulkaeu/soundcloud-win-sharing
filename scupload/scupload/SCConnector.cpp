@@ -13,11 +13,11 @@
 #include "UploadResult.h"
 
 const CString SCConnector::AUTH_URL_TEMPLATE = _T("https://soundcloud.com/connect?scope=non-expiring&client_id=%s&redirect_uri=%s&response_type=token&display=popup");
-const CString SCConnector::PROFILE_URL = _T("me.json");
-const CString SCConnector::CONNECTIONS_URL = _T("me/connections.json");
 const CString SCConnector::REDIRECT_URL = _T("https://developers.soundcloud.com/callback.html");
+const CString SCConnector::PROFILE_URL = _T("me");
+const CString SCConnector::CONNECTIONS_URL = _T("me/connections");
 const CString SCConnector::AVATAR_URL = _T("me/avatar");
-const CString SCConnector::TRACKS_URL = _T("/tracks.json");
+const CString SCConnector::TRACKS_URL = _T("/tracks");
 const INTERNET_PORT SCConnector::PORT = 443;
 const CString SCConnector::SERVER = _T("api.soundcloud.com");
 const CString SCConnector::OAUTH_TOKEN = _T("oauth_token");
