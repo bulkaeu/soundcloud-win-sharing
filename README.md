@@ -18,7 +18,7 @@ $ git clone git://github.com/soundcloud/soundcloud-win-sharing.git
 ## Configuration
 
 Head over to [SoundCloud to register an application](http://soundcloud.com/you/apps). If you plan to use the Windows version the redirect URI has to be set to
-"http://connect.soundcloud.com/desktop", so best use this one in general.
+"ttps://developers.soundcloud.com/callback.html", so best use this one in general.
 
 
 You'll have to pass the client_id, client_secret and redirect_uri later when invoking the executable.
