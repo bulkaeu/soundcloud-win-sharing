@@ -936,7 +936,7 @@ void SCUploadDlg::ShowUsage(void)
 	usageText += _T("Supported are any number of track properties in the form:\n-track[<property-name>]:<property-value>\n");
 	usageText += _T("See <a href=\"http://developers.soundcloud.com/docs/api/tracks\">developers.soundcloud.com/docs/api/tracks</a>\n\n");
 	usageText += _T("Your app's redirect URI must be set to:\n");
-	usageText += _T("http://connect.soundcloud.com/desktop");
+	usageText += _T("https://developers.soundcloud.com/callback.html");
 	
 	SetDlgItemText(IDC_USAGE, usageText);
 	m_Usage.ShowWindow(TRUE);

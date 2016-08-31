@@ -10,7 +10,7 @@ using namespace boost;
 bool WebUtility::IsSusiCancelled(const CString& url)
 {
 	// The user cancelled when following url redirect occurs:
-	// http://connect.soundcloud.com/desktop?error=access_denied&error_description=The+end-user+denied+the+request
+	// https://developers.soundcloud.com/callback.html?error=access_denied&error_description=The+end-user+denied+the+request
 	tregex accessDeniedPattern(_T("error=access_denied"));
 	tmatch match;
 	return regex_search(url, match, accessDeniedPattern);
